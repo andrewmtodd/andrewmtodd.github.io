@@ -5,15 +5,23 @@ body {
 }
 
 nav {
-   margin-top: 30px;
-   margin-bottom: 30px;
+   margin-top: 20px;
+   margin-bottom: 80px;
 }
 
-nav ul, footer ul {
+img {
+   width: 100%;
+   border-radius: 60%;
+   height: 60px;
+   width: 60px;
+}
+
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    margin-top: 18px;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -21,10 +29,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #339966;
 }
 a:hover {
     text-decoration: underline;
+    color: #339966;
 }
 h1 {
     font-size: 3em;
