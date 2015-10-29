@@ -30,19 +30,24 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #339966;
+    font-family: 'Lato';
+    font-size: 16px;
 }
 a:hover {
     text-decoration: underline;
     color: #339966;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 48px;
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family: 'Lato';
+    margin-bottom: 20px;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 22px;
     color: #333;
+    font-family: 'Crimson Text';
+    margin-bottom: 5px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
