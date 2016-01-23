@@ -6,7 +6,7 @@ body {
 
 nav {
    margin-top: 20px;
-   margin-bottom: 80px;
+   margin-bottom: 75px;
 }
 
 img {
@@ -41,13 +41,17 @@ h1 {
     font-size: 48px;
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     font-family: 'Lato';
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 p {
     font-size: 22px;
     color: #333;
     font-family: 'Crimson Text';
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+}
+p a {
+   font-family: 'Crimson Text';
+   font-size: 22px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
