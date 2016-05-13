@@ -12,8 +12,14 @@ nav {
 img {
    width: 100%;
    border-radius: 60%;
-   height: 60px;
-   width: 60px;
+   margin-bottom: 35px;
+}
+
+.header-bar {
+   height: 15px;
+   background: #333333;
+   width: 100%;
+   margin-bottom: 65px;
 }
 
 nav ul {
@@ -38,10 +44,15 @@ a:hover {
     color: #339966;
 }
 h1 {
-    font-size: 48px;
+    font-size: 54px;
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
-    font-family: 'Lato';
+    font-family: 'Montserrat';
     margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 42px;
+  }
 }
 p {
     font-size: 22px;
